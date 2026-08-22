@@ -7,7 +7,7 @@ Roguelike solo où le joueur greffe des parties de créatures sur un monstre uni
 ## 🎨 Phase 0 — Finitions du menu (en cours)
 - [ ] Valider le rendu final du portail (4 raretés testées)
 - [ ] Récupérer `flag_fr.png`/`flag_en.png` depuis l'autre PC, intégrer en base64 (bloqué, en attente accès autre PC)
-- [ ] Renommer le fichier physique du menu (`Wargraft Main Menu-standalone.html` → nom Xenograft)
+- [x] Renommer le fichier physique du menu → `xenograft-main-menu.html`
 - [ ] Générer les SFX prévus (prompts déjà écrits : hover/clic, feu, fanfare mute)
 - [ ] Finaliser le sélecteur de langue
 

@@ -7,4 +7,4 @@ Voir [TODO.md](./TODO.md) pour l'avancement du projet.
 ## Structure du dépôt
 
 - `Prompt/` — prompts de génération d'animation 3D du portail d'invocation, un par rareté (Commun/Rare/Épique/Légendaire)
-- `Wargraft Main Menu-standalone.html` — prototype du menu principal (à renommer, voir TODO)
+- `xenograft-main-menu.html` — prototype du menu principal
