@@ -18,8 +18,7 @@ Roguelike solo où le joueur greffe des parties de créatures sur un monstre uni
 - [x] Système de runs multiples par compte (5 slots) — routes `/api/runs`, table `runs` (slot 1-5 unique par user), table `bestiary_unlocks` pour la méta-progression
 - [x] Décider l'hébergement → VPS existant (alpastudio.fr), nouveau sous-domaine à créer (`xenograft.alpastudio.fr` ?)
 - [x] Scaffolder le client (Vue 3 + Vite + Pinia + Vue Router, mêmes fondations qu'arcade-zone) — login/register/liste des runs fonctionnels, reste à intégrer le prototype de menu (`xenograft-main-menu.html`) et le jeu lui-même
-- [ ] Installer les dépendances et tester serveur + client (bloqué : Node/npm absents de ce PC, à faire sur le VPS ou un autre PC avec Node)
-- [ ] Premier déploiement sur le VPS (nouveau sous-domaine, PM2, Nginx, certificat HTTPS)
+- [x] Premier déploiement sur le VPS — **https://xenograft.alpastudio.fr** (PM2 process `xenograft` port 3003, Nginx + HTTPS Certbot, DB MySQL `xenograft`). Testé de bout en bout (inscription/connexion/création de run) le 2026-08-24.
 
 ## ⚙️ Phase 2 — Systèmes cœur de jeu
 - [ ] Corps : 6 emplacements, stats, raretés
